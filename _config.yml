@@ -1,6 +1,6 @@
 # Site settings
 title: Sanitaris per la Independència
-logo: "assets/logo-1028x214.png"
+logo: "/assets/logo-1028x214.png"
 email: adhesions@sanitarisxindependencia.cat
 description: > # this means to ignore newlines until "baseurl:"
   Sanitaris per la Independència

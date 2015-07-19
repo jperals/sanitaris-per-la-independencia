@@ -7,11 +7,15 @@
   right: 0;
   padding: 0 0.5em;
   a {
-    color: $grey-color;
-    display: block;
+    color: $grey-color-medium-light;
+    display: inline-block;
     padding: 0.65em 0 0.1em;
-    &:hover {
+    &:hover,
+    &.active {
+      color: $grey-color;
       text-decoration: none;
+    }
+    &:hover {
       border-bottom: 1px solid $grey-color-dark;
     }
   }

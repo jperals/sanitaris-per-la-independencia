@@ -1,19 +1,20 @@
 <header class="site-header">
 
-  <div class="language-switch language-{{site.lang}}">
-    {% if site.lang == "es" %}
-      {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
-      <a href="{{ link1 }}" >català</a>
-    {% else if site.lang == "ca" %}
-      {% capture link2 %}{{ site.baseurl_root }}es{{ page.url  }}{% endcapture %}
-      <a href="{{ link2 }}" >castellano</a>
-    {% endif %}
+  <div class="language-switch lang-{{site.lang}}">
+    {% capture link1 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+    {% capture state_class %}inactive{% endcapture %}
+    {% if site.lang == "ca" %}{% capture state_class %}active{% endcapture %}{% endif %}
+    <a href="{{ link1 }}" class="{{ state_class }}">català</a>
+    {% capture link2 %}{{ site.baseurl_root }}es{{ page.url }}{% endcapture %}
+    {% capture state_class %}inactive{% endcapture %}
+    {% if site.lang == "es" %}{% capture state_class %}active{% endcapture %}{% endif %}
+    <a href="{{ link2 }}" class="{{ state_class }}">castellano</a>
   </div>
 
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">
-      {% if site.logo != null %}<img id="logo" src="{{ site.logo }}">
+      {% if site.logo != null %}<img id="logo" src="{{ site.logo | prepend: site.baseurl_root }}">
       {% else %}{{ site.title }}{% endif %}
     </a>
     <h2 class="site-slogan">
