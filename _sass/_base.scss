@@ -24,6 +24,10 @@ body {
 }
 
 
+section {
+  margin-bottom: $spacing-unit * 4;
+}
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -35,7 +39,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+em {
+  font-style: normal;
+  color: $brand-color;
+}
 
 /**
  * Images
@@ -68,6 +75,8 @@ ul, ol {
 }
 
 li {
+  margin-bottom: 2em;
+  margin-top: 2em;
     > ul,
     > ol {
          margin-bottom: 0;
