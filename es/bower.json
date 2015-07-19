@@ -1,0 +1,24 @@
+{
+  "name": "sxi",
+  "version": "0.0.0",
+  "authors": [
+    "Joan Perals"
+  ],
+  "description": "Sanitaris per la Independència",
+  "main": "index.html",
+  "keywords": [
+    "Independència"
+  ],
+  "license": "MIT",
+  "homepage": "sanitarisxindependencia.cat",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
