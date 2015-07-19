@@ -6,34 +6,7 @@ layout: default
 
 <div id="{% t manifesto %}" class="manifesto">
   <h2>{% t manifesto %}</h2>
-    <ul class="arguments-list">
-      <li>
-        Fer un nou país representa un projecte col·lectiu. <b>Creiem en la sanitat pública</b> i en un
-sistema de salut que doni servei d'una manera equitativa, universal, de qualitat i sense
-exclusions, com a pilar fonamental d'aquest projecte col·lectiu
-      </li>
-      <li>
-        Volem treballar per <b>potenciar l'atenció primària </b> perquè se sap que els sistemes sanitaris basats en una primària forta són més eficients i alhora més justos.
-      </li>
-      <li>
-        Els principals factors que condicionen la salut de les persones tenen a veure amb les condicions socials, els tipus de polítiques que es duen a terme, les decisions sobre els aspectes econòmics, culturals, ambientals, les polítiques de gènere i laborals. Per això <b>creiem en un país sensible</b> a tots aquests factors.
-      </li>
-      <li>
-        Volem que es garanteixi el dret a la salut per a qualsevol persona i també que <b>es garanteixin els drets individuals de les persones</b> a decidir sobre una mort digna, sobre el no acarnissament terapèutic, sobre l'avortament, sobre polítiques d'igualtat de gènere...
-      </li>
-      <li>
-        “Començar de nou” per <b>eradicar la corrupció i els jocs d'interessos individuals</b> en la gestió de les polítiques sanitàries.
-      </li>
-      <li>
-        <b>Reclamem un finançament just de la sanitat catalana</b> que permeti d'equiparar-nos amb els països més avançats d'Europa. Les condicions actuals de finançament (molt per sota de la mitjana europea pel que fa a despesa sanitària per càpita) només afavoreixen les fantasies eficientistes de l'administració sanitària i impedeixen d'abordar amb prou recursos els vells i nous reptes de la sanitat pública del nostre país...
-      </li>
-    </ul>
-    <p>
-      Pensem que vivim una situació en què no podem deslligar la realitat del dia a dia dels ciutadans de Catalunya de la realitat col·lectiva del país que reclama aconseguir els instruments necessaris per a decidir plenament sobre com utilitzem els nostres recursos al servei de la ciutadania.
-    </p>
-    <p>
-      Per això ens comprometem amb el moment històric que ens ha tocat viure i <b>apostem per una Catalunya lliure</b>.
-    </p>
+  {% tf home/manifesto.md %}
 </div>
 
 <div id="{% t downloads %}">
@@ -47,9 +20,9 @@ exclusions, com a pilar fonamental d'aquest projecte col·lectiu
     </li>
 </div>
 
-<div id="{% t adhesions %}">
-  <h2>{% t adhesions %}</h2>
-  Si voleu adherir-vos a la campanya, si us plau envieu un missatge de correu electrònic a <a href="mailto:adhesions@sanitarisxindependencia.cat">adhesions@sanitarisxindependencia.cat</a>.
+<div id="{% t join_us %}">
+  <h2>{% t join_us %}</h2>
+  {% tf home/join_us.md %}
 </div>
 
 </div>

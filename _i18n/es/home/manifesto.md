@@ -1,0 +1,10 @@
+- La construcción de un nuevo país representa un proyecto colectivo. *Creemos en la sanidad pública* y en un sistema sanitario equitativo, universal, de calidad y sin exclusiones, como pilar fundamental de este proyecto colectivo.
+- Queremos trabajar para *potenciar la atención primaria* porque se ha demostrado que los sistemas sanitarios basados en una primaria fuerte son más eficientes y a la vez más justos.
+- Los principales factores que condicionan la salud de las personas están relacionados con las condiciones sociales, el tipo de política que se aplica, las decisiones sobre aspectos económicos, culturales, ambientales, sobre las políticas de género y de trabajo. Por eso *creemos un país sensible* a estos factores.
+- Queremos que se garantice el derecho a la salud para cualquier persona y también que *se garanticen los derechos individuales de las personas* para poder decidir sobre temas como una muerte digna, sobre el no encarnizamiento terapéutico, sobre el aborto, sobre políticas de igualdad de género...
+- “Empezar” de nuevo para *erradicar la corrupción y los juegos de intereses individuales* de la gestión de las políticas sanitarias.
+- *Reclamamos una financiación justa de la sanidad catalana* que permita equipararnos con los países más avanzados de Europa. Las condiciones actuales de financiación (claramente por debajo de la mediana europea en gasto sanitario per cápita) sólo favorecen las fantasías eficientistas de la administración sanitaria e impiden abordar con suficientes recursos los nuevos y viejos retos de la sanidad pública de nuestro país.
+
+Pensamos que vivimos una situación donde no se puede disociar la realidad del día a día de los ciudadanos de Cataluña de la realidad colectiva de nuestro país que reclama conseguir los instrumentos necesarios para decidir plenamente cómo utilizamos nuestros recursos al servicio de la ciudadanía.
+
+Por eso nos comprometemos con el momento histórico que nos ha tocado vivir y apostamos por una Cataluña libre.
