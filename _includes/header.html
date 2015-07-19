@@ -2,7 +2,14 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+      {% if site.logo != null %}<img id="logo" src="{{ site.logo }}">
+      {% else %}{{ site.title }}{% endif %}
+    </a>
+    <h2 class="site-slogan">
+      Es pot fer un sistema sanitari millor,<br>
+      perquè es pot fer un país millor!
+    </h2>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +21,9 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="{{ site.baseurl }}#manifest">Manifest</a>
+        <a class="page-link" href="{{ site.baseurl }}#baixades">Baixades</a>
+        <a class="page-link" href="{{ site.baseurl }}#adhesions">Adhesions</a>
       </div>
     </nav>
 
