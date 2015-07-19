@@ -1,5 +1,15 @@
 <header class="site-header">
 
+  <div class="language-switch language-{{site.lang}}">
+    {% if site.lang == "es" %}
+      {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+      <a href="{{ link1 }}" >català</a>
+    {% else if site.lang == "ca" %}
+      {% capture link2 %}{{ site.baseurl_root }}es{{ page.url  }}{% endcapture %}
+      <a href="{{ link2 }}" >castellano</a>
+    {% endif %}
+  </div>
+
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">

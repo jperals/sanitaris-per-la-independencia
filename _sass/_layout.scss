@@ -1,4 +1,23 @@
 /**
+ * Language switch
+ */
+.language-switch {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0 0.5em;
+  a {
+    color: $grey-color;
+    display: block;
+    padding: 0.65em 0 0.1em;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px solid $grey-color-dark;
+    }
+  }
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -26,7 +45,7 @@
 
 .site-slogan {
   font-size: 42px;
-  color: #878786;
+  color: $grey-color;
   margin-top: 60px;
   margin-bottom: 60px;
 }
