@@ -9,3 +9,13 @@ url: "http://sanitarisxindependencia.cat" # the base hostname & protocol for you
 
 # Build settings
 markdown: kramdown
+
+# Dependencies
+# Using Gemfile seemed to work better than defining gems here
+# gems: [jekyll-multiple-languages-plugin]
+
+# i18n
+# Using Jekyll Multiple Languages Plugin:
+# https://github.com/screeninteraction/jekyll-multiple-languages-plugin
+languages: ["ca", "es"]
+exclude_from_localizations: ["assets", "css"]
