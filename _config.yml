@@ -1,11 +1,15 @@
 # Site settings
 title: Sanitaris per la Independència
-logo: "/assets/logo-1028x214.png"
+logo: "assets/logo-1028x214.png"
 email: adhesions@sanitarisxindependencia.cat
 description: > # this means to ignore newlines until "baseurl:"
   Sanitaris per la Independència
 baseurl: "" # the subpath of your site, e.g. /blog/
+#baseurl: "/sanitaris-per-la-independencia/"
 url: "http://sanitarisxindependencia.cat" # the base hostname & protocol for your site
+
+#Exclude from Build
+exclude: ['bin', 'Gemfile', 'Gemfile.lock', 'bower.json', 'feed.xml', 'jekyll-multiple-languages-plugin']
 
 # Build settings
 markdown: kramdown
