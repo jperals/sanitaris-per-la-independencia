@@ -14,7 +14,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">
-      {% if site.logo != null %}<img id="logo" src="{{ site.logo | prepend: site.baseurl_root }}">
+      {% if site.logo != null %}<img id="logo" src="/{{ site.logo | prepend: site.baseurl_root }}">
       {% else %}{{ site.title }}{% endif %}
     </a>
     <h2 class="site-slogan">
