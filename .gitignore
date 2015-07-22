@@ -1,4 +1,6 @@
 _bower_components
 _site
 .sass-cache
+bin/
+.bundle/
 Gemfile.lock
